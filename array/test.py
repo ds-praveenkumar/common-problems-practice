@@ -34,11 +34,11 @@ class TestLCS(unittest.TestCase):
             self.assertEqual(res, 0)
 
     def test_lcs_case5(self):
-            seq = [7, 17, 8, 18, 9, 19]
+            seq = [7, 17, 8, 18, 9, 19, 20]
             lcs = LCS(seq)
             res = lcs.lcs()
             print(res)
-            self.assertEqual(res, 3)
+            self.assertEqual(res, 4)
 
 if __name__ == '__main__':
     unittest.main()

@@ -32,8 +32,10 @@ if __name__ == '__main__':
     test_case =  int(input('no. of test cases: '))
     seq_len = int(input("sequence length: "))
     seq = []
-    for val in range(1,seq_len+1):
-        element = int(input(f"enter {val} element: "))
-        seq.append(element)
+    while test_case != 0:
+        for val in range(1,seq_len+1):
+            element = int(input(f"enter {val} element of arr{test_case}: "))
+            seq.append(element)
+        test_case -= 1
     lcs = LCS(seq)
     print("No of continous elements: ", lcs.lcs())

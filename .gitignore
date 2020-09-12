@@ -2,10 +2,14 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+notebook
 # C extensions
 *.so
 *.json
+<<<<<<< HEAD
+
+=======
+>>>>>>> 5e62b4ec765c8e8cc556823972239a22bd9b3b92
 # Distribution / packaging
 .Python
 build/

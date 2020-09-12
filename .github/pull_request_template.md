@@ -7,11 +7,11 @@ Fixes #
   -
 
 ## Is it a feature?
-[] Yes
+[] Yes <br/>
 [X] No
 
 ## Is it a bug?
-[] Yes
+[] Yes <br/>
 [X] No
 
 

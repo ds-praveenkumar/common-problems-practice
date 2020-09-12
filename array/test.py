@@ -1,6 +1,6 @@
 import unittest
 
-from lcs import LCS
+from p1_lcs import LCS
 
 
 class TestLCS(unittest.TestCase):
@@ -25,6 +25,20 @@ class TestLCS(unittest.TestCase):
             res = lcs.lcs()
             print(res)
             self.assertEqual(res, 0)
+    
+    def test_lcs_case4(self):
+            seq = [7, 7, 7, 7, 7, 7]
+            lcs = LCS(seq)
+            res = lcs.lcs()
+            print(res)
+            self.assertEqual(res, 0)
+
+    def test_lcs_case5(self):
+            seq = [7, 17, 8, 18, 9, 19]
+            lcs = LCS(seq)
+            res = lcs.lcs()
+            print(res)
+            self.assertEqual(res, 3)
 
 if __name__ == '__main__':
     unittest.main()

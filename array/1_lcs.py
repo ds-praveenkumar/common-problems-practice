@@ -1,6 +1,4 @@
 # lcs.py
-import unittest
-
 
 class LCS:
 

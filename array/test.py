@@ -40,5 +40,12 @@ class TestLCS(unittest.TestCase):
             print(res)
             self.assertEqual(res, 4)
 
+    def test_lcs_case6(self):
+            seq = [7,8,1,2]
+            lcs = LCS(seq)
+            res = lcs.lcs()
+            print(res)
+            self.assertEqual(res, 2)
+
 if __name__ == '__main__':
     unittest.main()

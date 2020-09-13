@@ -47,25 +47,72 @@ For each testcase, in a new line, print the starting and ending positions(1 inde
 2 4<br />
 1 5<br />
 * Explanation : <br />
-Testcase1: sum of elements from 2nd position to 4th position is 12<br />
+Testcase1: sum of elements from 3rd position to 4th position is 12<br />
 Testcase2: sum of elements from 1st position to 5th position is 15
 
 
-***3.***
+***3. Maximum sub sum in an array***
 ###
-*
-*
-*
-*
-*
-*
+Given an array arr of N integers. Find the contiguous sub-array with maximum sum.
+* Input:<br />
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows. The first line of each test case contains a single integer N denoting the size of array. The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+* Output: <br />
+Print the maximum sum of the contiguous sub-array in a separate line for each test case.
+* Constraints: <br />
+1 ≤ T ≤ 110<br />
+1 ≤ N ≤ 106<br />
+-107 ≤ A[i] <= 107<br />
+* Example
+* Input <br/>
+2<br />
+5<br />
+1 2 3 -2 5<br />
+4<br />
+-1 -2 -3 -4<br />
+* Output: <br />
+9<br />
+-1<br />
+* Explanation : <br />
+Testcase 1: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
+
+***4. Missing number in array***
+###
+Given an array C of size N-1 and given that there are numbers from 1 to N with one element missing, the missing number is to be found.
+* Input:<br />
+The first line of input contains an integer T denoting the number of test cases. For each test case first line contains N(size of array). The subsequent line contains N-1 array elements.
+* Output: <br />
+Print the missing number in array.
+* Constraints: <br />
+1 ≤ T ≤ 200 <br />
+1 ≤ N ≤ 107<br />
+1 ≤ C[i] ≤ 107<br />
+* Input <br/>
+2<br />
+5<br />
+1 2 3 5<br />
+10<br />
+1 2 3 4 5 6 7 8 10<br />
+* Output: <br />
+4<br />
+9<br />
+* Explanation : <br />
+Testcase 1: Given array : 1 2 3 5. Missing element is 4.
+
+***5. Missing number in array***
+###
+* Input:<br />
+* Output: <br />
+* Constraints: <br />
+* Input <br/>
+* Output: <br />
+* Explanation : <br />
 
 
-***4.***
+***6. Missing number in array***
 ###
-*
-*
-*
-*
-*
-*
+* Input:<br />
+* Output: <br />
+* Constraints: <br />
+* Input <br/>
+* Output: <br />
+* Explanation : <br />

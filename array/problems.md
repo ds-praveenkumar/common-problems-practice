@@ -47,7 +47,7 @@ For each testcase, in a new line, print the starting and ending positions(1 inde
 2 4<br />
 1 5<br />
 * Explanation : <br />
-Testcase1: sum of elements from 2nd position to 4th position is 12<br />
+Testcase1: sum of elements from 3rd position to 4th position is 12<br />
 Testcase2: sum of elements from 1st position to 5th position is 15
 
 

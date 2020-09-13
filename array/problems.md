@@ -51,15 +51,27 @@ Testcase1: sum of elements from 3rd position to 4th position is 12<br />
 Testcase2: sum of elements from 1st position to 5th position is 15
 
 
-***3.***
+***3. Given an array arr of N integers. Find the contiguous sub-array with maximum sum.***
 ###
-*
-*
-*
-*
-*
-*
-
+* Input:<br />
+The first line of input contains an integer T denoting the number of test cases. The description of T test cases follows. The first line of each test case contains a single integer N denoting the size of array. The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+* Output: <br />
+Print the maximum sum of the contiguous sub-array in a separate line for each test case.
+* Constraints: <br />
+1 ≤ T ≤ 110<br />
+1 ≤ N ≤ 106<br />
+-107 ≤ A[i] <= 107<br />
+* Input <br/>
+2<br />
+5<br />
+1 2 3 -2 5<br />
+4<br />
+-1 -2 -3 -4<br />
+* Output: <br />
+9<br />
+-1<br />
+* Explanation : <br />
+Testcase 1: Max subarray sum is 9 of elements (1, 2, 3, -2, 5) which is a contiguous subarray.
 
 ***4.***
 ###

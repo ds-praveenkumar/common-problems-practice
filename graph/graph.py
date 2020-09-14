@@ -4,7 +4,7 @@
 
 class Node:
     """
-        Thid class implements Node
+        This class implements Node
     """
     def __init__(self, name="root"):
         self.name = name
@@ -49,13 +49,15 @@ class Graph:
             print("edge alredy present")
         else:
             self.graph[self.src].append(self.dest) # add new node
+    
+    def get_values(self, root=Node):
+        for key, vals in self.graph.items():
+            if key == root:
+                return vals
 
-        
+    def get_keys(self):
+            return self.graph.keys()
 
-            
-            
-            
-        
 
 
 if __name__ == "__main__":
@@ -78,4 +80,5 @@ if __name__ == "__main__":
     g.add_edge(d, e)
     g.add_edge(c, a)
     g.add_edge(c, d)
+
     print(g)

@@ -59,7 +59,6 @@ class Graph:
             return self.graph.keys()
 
 
-
 if __name__ == "__main__":
     root = Node("root")
     a = Node("a")
